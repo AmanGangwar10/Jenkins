@@ -53,9 +53,7 @@ public class Create_OrganizationTest extends BaseClass{
 	orgPage.orgData(organizationData, phoneNum, emailID);
 	
 //	Assert.fail();
-	
-	// ok welcome to the page
-	// yeah i got it	
+		
 	
 	orgPage.clickOnSaveButton();
 	Thread.sleep(2000);
